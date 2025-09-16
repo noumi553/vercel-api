@@ -38,8 +38,5 @@ app.post('/', async(req, res) => {
     return res.json({msg:'data send successfully'})
 })
 
-/*const PORT = process.env.port
-
-app.listen(PORT, () => { console.log(`the server is running is on port no http://localhost:${PORT}`) })*/
 
 module.exports = app
